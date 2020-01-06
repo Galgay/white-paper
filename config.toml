@@ -21,6 +21,9 @@ pygmentsCodefencesGuessSyntax = true
 
 staticDir = ["static", "../assets/others"]               # static directories
 
+[context.production.environment]
+  HUGO_VERSION = "0.62"
+
 [author]                                              #### Author Info
   name = "galgay"
 
